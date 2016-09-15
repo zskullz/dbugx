@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>DubgX</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/lib/dbugx.css">
+	<link rel="stylesheet" href="/lib/w3.css">
+	<link rel="stylesheet" href="/lib/w3-theme-black.css">
+	<link rel="stylesheet" href="/lib/codemirror.css">
+	
+	<script src="/lib/js/codemirror.js"></script>
+	<script src="/lib/js/mode/xquery/xquery.js"></script>
+	<script src="/lib/js/dbugx.js"></script>
+
+</head>
+
+<body>
+	<nav class="w3-navbar w3-theme">
+		<li><a href="index.html">Home</a></li>
+	</nav>
+	<div id="container" class="w3-theme w3-container">
+		<aside id="server-view" class="w3-container">
+			<h2>servers</h1>
+			<button id="load-servers-btn" class="w3-btn w3-dark-grey w3-hover-grey" onClick="loadServers()">Load</button>
+			<ul id="server-list" class="w3-ul w3-card-4">
+			</ul>
+		</aside>
+		<section id="source-view">
+			<textarea id="sourceText" name="sourceText"></textarea>
+		</section>
+
+		<section id="variable-view" class="w3-container">
+			<h1>variables</h1>
+		</section>
+		<section id="stack-view" class="w3-container">
+			<h1>stack</h1>
+		</section>
+	</div>
+</body>
+
+</html>

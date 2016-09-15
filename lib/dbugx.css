@@ -1,0 +1,58 @@
+
+#container {
+	position:absolute; 
+	width:100%; 
+	height:95%
+}
+
+#server-view {
+	height:80%; 
+	width:25%; 
+	display: inline-block;
+	position: static;
+	overflow:auto
+}
+
+#server-list {
+	display: inline-block;
+}
+
+#source-view {
+	height:80%; 
+	width:75%; 
+	position: static;
+	float: right;
+}
+
+#variable-view {
+	height:20%; 
+	width:50%;
+	position: static;
+	display: inline-block;
+	border-style: solid;
+	border-color: #616161
+}
+
+#stack-view {
+	height:20%; 
+	width:50%;
+	display: inline-block;
+	float: right;
+	border-style: solid;
+	border-color: #616161
+}
+
+#server-view h2 {
+	float: left;
+}
+
+#load-servers-btn {
+	float: right;
+	width: 125px;
+	height: 45px;
+	margin: 10px 0px !important
+}
+
+.CodeMirror {
+	height: 100% !important
+}
